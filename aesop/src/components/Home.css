@@ -1,0 +1,71 @@
+.home {
+    background: url('https://www.aesop.com/u1nb1km7t5q7/3JruvdkK023WgnONfInKkk/1197b51f6b729714eb05b981b47e4010/Aesop_Gifting_2021_Mothers_Day_Web_Homepage_Primary_Full_Bleed_1_Desktop_2880x1044px.jpg');
+    height: 70vh;
+    display: flex;
+    /* object-fit: contain; */
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.home__left {
+    padding: 30px;
+    /* align-items: top; */
+    position: relative;
+    top: 130px;
+}
+
+.home__left > h1 {
+    cursor: pointer;
+}
+
+.home__right {
+    padding: 30px;
+    display: flex;
+    flex-direction: column; 
+    width: 40vh;
+    position: relative;
+    top: 130px;
+
+}
+
+.home__right  > h2 {
+    font-size: 14px;
+    /* font-style: Sans; */
+    margin-bottom: 15px; 
+    font-family:  sans-serif ;
+    cursor: pointer;
+}
+
+.home__right  > h1 {
+    font-size: 30px;
+    margin-bottom: 15px; 
+    font-family:  sans-serif ;
+    cursor: pointer;
+}
+
+.home__right  > p {
+    font-size: 16px;
+    margin-bottom: 30px; 
+    font-family:  sans-serif ;
+    cursor: pointer;
+}
+
+.home__button {
+    padding: 10px;
+    width: 320px;
+    height: 60px;
+    font-size: 14px;
+    font-family:  sans-serif ;
+    background-color: #ECD0C6;
+    cursor: pointer;
+    border: 1px solid grey;
+    
+}
+
+.home__button:hover {
+    background-color: #333333;
+    color: white;
+    /* border-radius: 10px; */
+    cursor: pointer;
+    border: none;
+}
